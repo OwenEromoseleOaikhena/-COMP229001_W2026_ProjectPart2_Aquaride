@@ -99,8 +99,7 @@ npm run dev:full
 ---
 
 ## 📋 Agile Tracking
-Trello board: [Add your Trello board link here]
-
+https://trello.com/b/kBSVouIJ/aquaride-project-board
 ---
 
 ## 🛠 Tech Stack
