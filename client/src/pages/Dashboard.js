@@ -34,7 +34,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">📋</div>
               <h5 className="fw-bold">My Trips</h5>
               <p className="text-muted">View and manage your booked trips.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming in Part 3</button>
+              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
             </div>
           </div>
           <div className="col-md-4">
@@ -42,7 +42,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">👤</div>
               <h5 className="fw-bold">My Profile</h5>
               <p className="text-muted">Update your personal information.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming in Part 3</button>
+              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">➕</div>
               <h5 className="fw-bold">List a Boat</h5>
               <p className="text-muted">Add your boat and start offering rides.</p>
-              <button className="btn btn-primary mt-auto" disabled>Coming in Part 3</button>
+              <Link to="/add-boat" className="btn btn-primary mt-auto">Add Boat</Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -64,7 +64,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">⛵</div>
               <h5 className="fw-bold">My Boats</h5>
               <p className="text-muted">Manage your boat listings and statuses.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming in Part 3</button>
+              <Link to="/my-boats" className="btn btn-outline-primary mt-auto">Manage Boats</Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -72,7 +72,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">📊</div>
               <h5 className="fw-bold">Trip Requests</h5>
               <p className="text-muted">View and manage incoming trip bookings.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming in Part 3</button>
+              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
             </div>
           </div>
         </div>

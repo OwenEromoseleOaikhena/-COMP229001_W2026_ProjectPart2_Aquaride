@@ -15,6 +15,8 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import BoatListing from './pages/BoatListing';
+import AddBoat from './pages/AddBoat';
+import MyBoats from './pages/MyBoats';
 
 // Component imports
 import Navbar from './components/Navbar';
@@ -35,6 +37,8 @@ function App() {
 
           {/* Protected routes - require login */}
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+          <Route path="/add-boat" element={<PrivateRoute><AddBoat /></PrivateRoute>} />
+          <Route path="/my-boats" element={<PrivateRoute><MyBoats /></PrivateRoute>} />
         </Routes>
       </main>
       <Footer />
