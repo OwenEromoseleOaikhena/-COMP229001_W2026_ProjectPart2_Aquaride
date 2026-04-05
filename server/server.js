@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 
 // Middleware: enable CORS for React frontend on port 3000
-app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: ['http://localhost:3000', 'https://aquaride-psi.vercel.app'], credentials: true }));
 
 // API Routes
 app.use('/api/auth', require('./routes/authRoutes'));   // Auth: register, login, profile
