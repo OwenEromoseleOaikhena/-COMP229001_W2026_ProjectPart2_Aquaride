@@ -34,7 +34,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">📋</div>
               <h5 className="fw-bold">My Trips</h5>
               <p className="text-muted">View and manage your booked trips.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
+              <Link to="/my-trips" className="btn btn-outline-primary mt-auto">View Trips</Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -42,7 +42,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">👤</div>
               <h5 className="fw-bold">My Profile</h5>
               <p className="text-muted">Update your personal information.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
+              <Link to="/profile" className="btn btn-outline-primary mt-auto">Edit Profile</Link>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Dashboard = () => {
               <div className="fs-1 mb-2">📊</div>
               <h5 className="fw-bold">Trip Requests</h5>
               <p className="text-muted">View and manage incoming trip bookings.</p>
-              <button className="btn btn-outline-primary mt-auto" disabled>Coming Soon</button>
+              <Link to="/my-trips" className="btn btn-outline-primary mt-auto">View Requests</Link>
             </div>
           </div>
         </div>
