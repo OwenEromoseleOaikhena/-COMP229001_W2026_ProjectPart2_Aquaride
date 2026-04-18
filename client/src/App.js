@@ -17,6 +17,8 @@ import Dashboard from './pages/Dashboard';
 import BoatListing from './pages/BoatListing';
 import AddBoat from './pages/AddBoat';
 import MyBoats from './pages/MyBoats';
+import Profile from './pages/Profile';
+import MyTrips from './pages/MyTrips';
 
 // Component imports
 import Navbar from './components/Navbar';
@@ -39,6 +41,8 @@ function App() {
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path="/add-boat" element={<PrivateRoute><AddBoat /></PrivateRoute>} />
           <Route path="/my-boats" element={<PrivateRoute><MyBoats /></PrivateRoute>} />
+          <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
+          <Route path="/my-trips" element={<PrivateRoute><MyTrips /></PrivateRoute>} />
         </Routes>
       </main>
       <Footer />
